@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Noto+Sans:wght@100&family=Source+Code+Pro:wght@500&display=swap');
+
+.heads{
+    color: rgb(255, 255, 255) ;
+    font-size: 55px;
+    text-align: center;
+    /* 1cm = px? */
+    font-family: 'Arimo', sans-serif;
+}
+
+h1{
+    color: black;
+}
+
+#head{
+    color: yellow;
+}
+
+li{
+    font-size: 30px;
+}
+
+/* background, 3 rules of css, clases and ids, box model */
+
+body{
+    color: white;
+    background-color: rgb(255, 233, 233);
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/128/397/large_2x/geometric-background-template-free-vector.jpg');
+}
+
+
+/* 3 rules */
+/*
+1. syntax
+
+selector(tagname, .classes and #ids){
+    property: value;
+}
+
+2. Who is more powerful
+    !important > inline > internal > external
+
+3. tagname < class < id < !important
+
+  the more specific the more powerful
+ */
+
+
+/* Box model: margin, border and padding */
+/* flex box: cloning website */
+
+ .box{
+    height: 200px;
+    width: 200px;
+    background: #000;
+    /* margin: space outside container */
+    margin-left: 200px;
+    /* border */
+    /* border-color: white;
+    border-width: 3px;
+    border-style: solid; */
+    border: solid white 3px ;
+    /* padding */
+    padding: 30px;
+    box-sizing: border-box;
+
+}
